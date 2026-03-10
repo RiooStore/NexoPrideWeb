@@ -34,7 +34,6 @@ body{background:radial-gradient(circle at top,#111 0%,#000 60%);color:#fff;min-h
 .hero-section{max-width:1100px;margin:30px auto 0;padding:0 20px;text-align:center;}
 .section-title{font-size:40px;font-weight:900;margin-bottom:20px;display:flex;justify-content:center;gap:12px;align-items:center;}
 .badge{padding:6px 14px;border-radius:999px;font-size:13px;font-weight:700;background:linear-gradient(135deg,#7c3aed,#9333ea);}
-.banner video{width:100%;height:400px;border-radius:22px;border:1px solid rgba(255,255,255,.1);object-fit:cover;}
 
 .divider{width:80%;max-width:900px;margin:30px auto;height:2px;background:linear-gradient(to right,transparent,#666,transparent);border:none;}
 
@@ -107,61 +106,6 @@ footer{text-align:center;padding:40px 20px;opacity:.8;}
 
 @media(max-width:640px){.section-title{font-size:32px;}.banner video{height:250px;}}
 
-/* OVERLAY MASUK */
-.enter-overlay{
-position:fixed;
-inset:0;
-background:linear-gradient(180deg,rgba(0,0,0,.65),rgba(0,0,0,.85));
-background:rgba(20,20,20,.9);
-display:flex;
-align-items:center;
-justify-content:center;
-z-index:9999;
-transition:opacity .6s ease, transform .6s ease;
-}
-
-/* EFEK SAAT DITUTUP */
-.enter-overlay.hide{
-opacity:0;
-transform:scale(1.05);
-pointer-events:none;
-}
-
-.enter-box{
-background:rgba(255,255,255,.05);
-border:1px solid rgba(255,255,255,.12);
-padding:40px 30px;
-border-radius:22px;
-text-align:center;
-max-width:320px;
-width:90%;
-background:rgba(20,20,20,.9);
-}
-
-/* TOMBOL */
-.enter-btn{
-margin-top:25px;
-padding:14px 45px;
-font-size:16px;
-font-weight:800;
-border-radius:12px;
-border:none;
-cursor:pointer;
-background:linear-gradient(135deg,#25D366,#7c3aed);
-color:#000;
-transition:.25s;
-}
-
-.enter-btn:hover{
-transform:scale(1.05);
-filter:brightness(1.15);
-}
-
-/* EFEK PENCET */
-.enter-btn:active{
-transform:scale(.92);
-}
-
 .babu-popup{position:fixed;inset:0;background:rgba(0,0,0,.7);background:rgba(20,20,20,.9);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:.35s;z-index:9999;}
 .babu-popup.active{opacity:1;pointer-events:auto;}
 .babu-box{background:#0b0b0b;padding:25px;border-radius:20px;width:90%;max-width:500px;position:relative;}
@@ -182,15 +126,6 @@ transform:scale(.92);
 
 <body id="top">
 
-<!-- OVERLAY MASUK -->
-<div class="enter-overlay" id="enterOverlay">
-  <div class="enter-box">
-    <h1>Welcome To<br>Nexo Pride</h1>
-    <p style="opacity:.7;margin-top:8px;">Klik tombol untuk masuk</p>
-    <button class="enter-btn" onclick="startSite()">MASUK</button>
-  </div>
-</div>
-
 <!-- NAVBAR -->
 <nav class="navbar">
   <div class="nav-container">
@@ -208,11 +143,6 @@ transform:scale(.92);
 <!-- HERO -->
 <section class="hero-section">
   <h1 class="section-title">NEXO PRIDE <span class="badge">Official</span></h1>
-  <div class="banner">
-    <video id="bannerVideo" loop playsinline preload="none">
-      <source src="banner.mp4" type="video/mp4">
-    </video>
-  </div>
 </section>
 
 <hr class="divider">
@@ -348,7 +278,7 @@ transform:scale(.92);
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
-    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="open8Plengger()">
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPlengger8()">
     • 8Plengger : <br>
     &nbsp;&nbsp;&nbsp;• M1 : 8Plengger Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
@@ -513,28 +443,6 @@ function closeSide(){
 }
 closeMenu.onclick=closeSide;
 overlay.onclick=closeSide;
-
-const enterOverlay=document.getElementById("enterOverlay");
-const video=document.getElementById("bannerVideo");
-
-function startSite(){
-
-  const btn = document.querySelector(".enter-btn");
-
-  btn.style.transform = "scale(.9)";
-  btn.style.filter = "brightness(1.2)";
-
-  setTimeout(()=>{
-    enterOverlay.classList.add("hide");
-  },150);
-
-  setTimeout(()=>{
-    enterOverlay.style.display="none";
-  },750);
-
-  video.muted=false;
-  video.play();
-}
 
 let babuPopup;
 
@@ -706,20 +614,20 @@ document.addEventListener("click", e=>{
   }
 });
 
-let 8plenggerPopup;
+let plengger8Popup;
 
-function open8Plengger(){
-  8plenggerPopup = document.getElementById("8plenggerPopup");
-  8plenggerPopup.classList.add("active");
+function openPlengger8(){
+  plengger8Popup = document.getElementById("plengger8Popup");
+  plengger8Popup.classList.add("active");
 }
 
-function close8Plengger(){
-  8plenggerPopup.classList.remove("active");
+function closePlengger8(){
+  plengger8Popup.classList.remove("active");
 }
 
 document.addEventListener("click", e=>{
-  if(e.target.id === "8plenggerPopup"){
-    close8Plengger();
+  if(e.target.id === "plengger8Popup"){
+    closePlengger8();
   }
 });
 
@@ -1098,9 +1006,9 @@ document.addEventListener("click", e=>{
   </div>
 </div>
 
-<div class="babu-popup" id="8plenggerPopup">
+<div class="babu-popup" id="plengger8Popup">
   <div class="babu-box">
-    <div class="babu-close" onclick="close8Plengger()">✕</div>
+    <div class="babu-close" onclick="closePlengger8()">✕</div>
 
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/8PLENGGER/M1.jpg" loading="lazy"></div>

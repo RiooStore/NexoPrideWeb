@@ -1,6 +1,61 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+<div class="wrapper">
+<div class="left">
+
+<style>
+body{
+  background:#0b0b12;
+  color:#fff;
+}
+
+/* OURIN STYLE */
+.card, .accordion{
+  background:#151521 !important;
+  border-radius:15px !important;
+  border:1px solid rgba(255,255,255,.05);
+  margin-bottom:15px;
+}
+
+.card:hover{
+  transform:translateY(-3px);
+  border-color:#6c5ce7;
+}
+
+.hero, .header{
+  background:#151521;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+
+/* LAYOUT */
+.wrapper{
+  display:flex;
+  gap:20px;
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+.left{flex:2}
+.right{flex:1}
+
+/* SIDEBAR */
+.feature{
+  background:#151521;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:10px;
+}
+
+/* MOBILE */
+@media(max-width:900px){
+  .wrapper{flex-direction:column;}
+}
+</style>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nexo Pride</title>
@@ -187,28 +242,27 @@ footer{text-align:center;padding:40px 20px;opacity:.8;}
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;">
     • Pengurus Nexo : <br>
     &nbsp;&nbsp;&nbsp;• Maul ( Pengurus War ) 🥰 <br>
-    &nbsp;&nbsp;&nbsp;• - <br>
+    &nbsp;&nbsp;&nbsp;• Reyaldi ( Pengurus Boys ) 🫢 <br>
     &nbsp;&nbsp;&nbsp;• -
     </div>
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;">
     • Kank Optest Nexo : <br>
-    &nbsp;&nbsp;&nbsp;• Rioo Rowrr 👤 <br>
-    &nbsp;&nbsp;&nbsp;• Aldo Plenger 🤡  <br>
-    &nbsp;&nbsp;&nbsp;• Zam Cunkk 🙂‍↕️ <br>
+    &nbsp;&nbsp;&nbsp;• Aldo LL 🤡 <br>
+    &nbsp;&nbsp;&nbsp;• Rioo Y 🤭 <br>
     &nbsp;&nbsp;&nbsp;• Ziqq Bezirr ☺ <br>
-    &nbsp;&nbsp;&nbsp;• Fey Gtw ( Optest Lds ) 🤩
+    &nbsp;&nbsp;&nbsp;• Maul Tll 😈 <br>
+    &nbsp;&nbsp;&nbsp;• Fey Hbt ( Optest Lds ) 😙
     </div>
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;">
     • Pro Player Nexo : <br>
-    &nbsp;&nbsp;&nbsp;• Ziqq? [ Tier SSS+ ] 😍 <br>
-    &nbsp;&nbsp;&nbsp;• Zamm Okelah 🔥 <br>
-    &nbsp;&nbsp;&nbsp;• Reyaldi Boss 🤫 <br>
+    &nbsp;&nbsp;&nbsp;• Ziqq Guru Flado,Kamil,Arkan 👿 <br>
     &nbsp;&nbsp;&nbsp;• Malk Bezirr 🥵 <br>
-    &nbsp;&nbsp;&nbsp;•
+    &nbsp;&nbsp;&nbsp;• Reyaldi Ok 🗿 <br>
+    &nbsp;&nbsp;&nbsp;• Feyy Lds Keren 💣
     </div>
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;">
     • Player Inti Nexo : <br>
-    &nbsp;&nbsp;&nbsp;• - <br>
+    &nbsp;&nbsp;&nbsp;• Adney Kcung 😒 <br>
     &nbsp;&nbsp;&nbsp;• - <br>
     &nbsp;&nbsp;&nbsp;• - <br>
     &nbsp;&nbsp;&nbsp;• - <br>
@@ -221,6 +275,7 @@ footer{text-align:center;padding:40px 20px;opacity:.8;}
   <div class="card accordion">
     <div class="card-header">List Babu Nexo 🔥</div>
     <div class="card-sub">Kacungg Semuaa</div>
+    <div class="card-sub">Total 75+ Babu</div>    
     <div class="card-content">
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openBabu()">
     • Matadore : <br>
@@ -228,139 +283,465 @@ footer{text-align:center;padding:40px 20px;opacity:.8;}
     &nbsp;&nbsp;&nbsp;• M2 : Matadore Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openXaverlus()">
     • Xaverlus : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Xaverlus Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openBluesky()">
     • Bluesky : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openWkp()">
     • Wkp : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openIzanagi()">
     • Izanagi : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Izanagi Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openMargasawit()">
     • Marga Sawit : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Marga Sawit Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openAllbasegoser()">
-    • Allbase Goser : <br>
+    • AllBase Goser : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
-    &nbsp;&nbsp;&nbsp;• M2 : Allbase Goser Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Goser Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openKrococees()">
     • Krococees : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openFatalx()">
     • Fatalx : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Fatalx Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openMargasawitt()">
     • Margasawitt : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPlengger8()">
     • 8Plengger : <br>
     &nbsp;&nbsp;&nbsp;• M1 : 8Plengger Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openExvander()">
     • Exvander : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Exvander Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openStarluck()">
     • Starluck : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openLengkongpride()">
     • Lengkong Pride : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Lengkong Pride Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openExcees05()">
     • Excees 05 : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSggn()">
     • Sggn : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openKingsiwa()">
     • King Siwa : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : King Siwa Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openHiyumi()">
     • Hiyumi : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Hiyumi Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openApex()">
     • Apex : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openValhalla()">
     • Valhalla : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openVionsel()">
     • Vionsel : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Vionsel Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openVetruxz()">
     • Vetruxz : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Vetruxz Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openDominantsprime()">
     • Dominants Prime : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSantastecu()">
     • Santa Stecu : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
     <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openI3gera()">
     • I3g Era : <br>
     &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
     &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNivoltus()">
+    • Nivoltus : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
     </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openRawr()">
+    • Rawr : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Rawr Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNeverloux()">
+    • Neverloux : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openCosmicreapers()">
+    • Cosmic Reapers : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openOrbitcrew()">
+    • Orbit Crew : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Orbit Crew Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openolympus()">
+    • Olympus : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Olympus Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openDominans()">
+    • Dominans : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openOxper()">
+    • Oxper All Base : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openGenose()">
+    • Genose : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openVeltanicx()">
+    • Veltanicx : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Veltanicx Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openGooi()">
+    • Gooi AllBase : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNine99()">
+    • Nine99 Family : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openVortexz()">
+    • Vortexz Nw : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPlenger()">
+    • Plenger : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+   
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openHaruno()">
+    • Haruno Cees : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPerken()">
+    • Perken AllBase : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNeverlost()">
+    • Neverlost Jr : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Neverlost Jr Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openYourfams()">
+    • Your Fams : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNotbad()">
+    • Notbad Area : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Notbad Area Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPorce()">
+    • Porce Haram : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openYamazakisq()">
+    • YamazakiSQ : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSemper()">
+    • Semper : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Semper Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openFoxes()">
+    • Foxes Birlt : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Foxes Birlt Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSouthparker()">
+    • South Parker : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openAnticelsi()">
+    • Anticelsi Cees : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPanelboys()">
+    • Panel Boys : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openCipoxxss()">
+    • Cipoxxss : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openVex77area()">
+    • Vex77 Area : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNocturn()">
+    • Nocturn : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPanxtrom()">
+    • Panxtrom : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openElysium()">
+    • Elysium Tw Femes : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Elysium Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openIzumo()">
+    • Izumo Family : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNevervoid()">
+    • Nevervoid : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openkhongguan()">
+    • Khong Guan Otw Mengudara : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openCatalistic()">
+    • Catalistic Pride : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPanter081()">
+    • Panter081(Boy) Otw Haji : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openNvchigh()">
+    • Nvc High : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openMarga20()">
+    • Marga 20 : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openMarga33()">
+    • Marga 33 : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Marga 33 Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openFuji()">
+    • Fuji Area : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Fuji Area Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSilentblades()">
+    • Silent Blades Cs Club : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openShadowclone()">
+    • Shadow Clone : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openYourlose()">
+    • Your Lose Area : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Your Lose Area Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openmelvador()">
+    • Melvador : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Melvador Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openSeverpain()">
+    • Severpain Area Elit Cs Aimlock : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openShadowscythe()">
+    • Shadow Scythe : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openPixel()">
+    • Pixel All Base : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Nexo Win
+    </div>
+    
+    <div class="social-btn" style="display:block;margin-bottom:10px;text-align:left;" onclick="openCiraprime()">
+    • Cira Prime : <br>
+    &nbsp;&nbsp;&nbsp;• M1 : Nexo Win <br>
+    &nbsp;&nbsp;&nbsp;• M2 : Cira Prime Win <br>
+    &nbsp;&nbsp;&nbsp;• M3 : Nexo Win
+    </div>
+
     </div>
   </div>
 </div>
@@ -445,16 +826,13 @@ closeMenu.onclick=closeSide;
 overlay.onclick=closeSide;
 
 let babuPopup;
-
 function openBabu(){
   babuPopup = document.getElementById("babuPopup");
   babuPopup.classList.add("active");
 }
-
 function closeBabu(){
   babuPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "babuPopup"){
     closeBabu();
@@ -462,16 +840,13 @@ document.addEventListener("click", e=>{
 });
 
 let xaverlusPopup;
-
 function openXaverlus(){
   xaverlusPopup = document.getElementById("xaverlusPopup");
   xaverlusPopup.classList.add("active");
 }
-
 function closeXaverlus(){
   xaverlusPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "xaverlusPopup"){
     closeXaverlus();
@@ -479,16 +854,13 @@ document.addEventListener("click", e=>{
 });
 
 let blueskyPopup;
-
 function openBluesky(){
   blueskyPopup = document.getElementById("blueskyPopup");
   blueskyPopup.classList.add("active");
 }
-
 function closeBluesky(){
   blueskyPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "blueskyPopup"){
     closeBluesky();
@@ -496,16 +868,13 @@ document.addEventListener("click", e=>{
 });
 
 let wkpPopup;
-
 function openWkp(){
   wkpPopup = document.getElementById("wkpPopup");
   wkpPopup.classList.add("active");
 }
-
 function closeWkp(){
   wkpPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "wkpPopup"){
     closeWkp();
@@ -513,16 +882,13 @@ document.addEventListener("click", e=>{
 });
 
 let izanagiPopup;
-
 function openIzanagi(){
   izanagiPopup = document.getElementById("izanagiPopup");
   izanagiPopup.classList.add("active");
 }
-
 function closeIzanagi(){
   izanagiPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "izanagiPopup"){
     closeIzanagi();
@@ -530,16 +896,13 @@ document.addEventListener("click", e=>{
 });
 
 let margasawitPopup;
-
 function openMargasawit(){
   margasawitPopup = document.getElementById("margasawitPopup");
   margasawitPopup.classList.add("active");
 }
-
 function closeMargasawit(){
   margasawitPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "margasawitPopup"){
     closeMargasawit();
@@ -547,16 +910,13 @@ document.addEventListener("click", e=>{
 });
 
 let allbasegoserPopup;
-
 function openAllbasegoser(){
   allbasegoserPopup = document.getElementById("allbasegoserPopup");
   allbasegoserPopup.classList.add("active");
 }
-
 function closeAllbasegoser(){
   allbasegoserPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "allbasegoserPopup"){
     closeAllbasegoser();
@@ -564,16 +924,13 @@ document.addEventListener("click", e=>{
 });
 
 let krococeesPopup;
-
 function openKrococees(){
   krococeesPopup = document.getElementById("krococeesPopup");
   krococeesPopup.classList.add("active");
 }
-
 function closeKrococees(){
   krococeesPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "krococeesPopup"){
     closeKrococees();
@@ -581,16 +938,13 @@ document.addEventListener("click", e=>{
 });
 
 let fatalxPopup;
-
 function openFatalx(){
   fatalxPopup = document.getElementById("fatalxPopup");
   fatalxPopup.classList.add("active");
 }
-
 function closeFatalx(){
   fatalxPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "fatalxPopup"){
     closeFatalx();
@@ -598,16 +952,13 @@ document.addEventListener("click", e=>{
 });
 
 let margasawittPopup;
-
 function openMargasawitt(){
   margasawittPopup = document.getElementById("margasawittPopup");
   margasawittPopup.classList.add("active");
 }
-
 function closeMargasawitt(){
   margasawittPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "margasawittPopup"){
     closeMargasawitt();
@@ -615,16 +966,13 @@ document.addEventListener("click", e=>{
 });
 
 let plengger8Popup;
-
 function openPlengger8(){
   plengger8Popup = document.getElementById("plengger8Popup");
   plengger8Popup.classList.add("active");
 }
-
 function closePlengger8(){
   plengger8Popup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "plengger8Popup"){
     closePlengger8();
@@ -632,16 +980,13 @@ document.addEventListener("click", e=>{
 });
 
 let exvanderPopup;
-
 function openExvander(){
   exvanderPopup = document.getElementById("exvanderPopup");
   exvanderPopup.classList.add("active");
 }
-
 function closeExvander(){
   exvanderPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "exvanderPopup"){
     closeExvander();
@@ -649,16 +994,13 @@ document.addEventListener("click", e=>{
 });
 
 let starluckPopup;
-
 function openStarluck(){
   starluckPopup = document.getElementById("starluckPopup");
   starluckPopup.classList.add("active");
 }
-
 function closeStarluck(){
   starluckPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "starluckPopup"){
     closeStarluck();
@@ -666,16 +1008,13 @@ document.addEventListener("click", e=>{
 });
 
 let lengkongpridePopup;
-
 function openLengkongpride(){
   lengkongpridePopup = document.getElementById("lengkongpridePopup");
   lengkongpridePopup.classList.add("active");
 }
-
 function closeLengkongpride(){
   lengkongpridePopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "lengkongpridePopup"){
     closeLengkongpride();
@@ -683,16 +1022,13 @@ document.addEventListener("click", e=>{
 });
 
 let excees05Popup;
-
 function openExcees05(){
   excees05Popup = document.getElementById("excees05Popup");
   excees05Popup.classList.add("active");
 }
-
 function closeExcees05(){
   excees05Popup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "excees05Popup"){
     closeExcees05();
@@ -700,16 +1036,13 @@ document.addEventListener("click", e=>{
 });
 
 let sggnPopup;
-
 function openSggn(){
   sggnPopup = document.getElementById("sggnPopup");
   sggnPopup.classList.add("active");
 }
-
 function closeSggn(){
   sggnPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "sggnPopup"){
     closeSggn();
@@ -717,16 +1050,13 @@ document.addEventListener("click", e=>{
 });
 
 let kingsiwaPopup;
-
 function openKingsiwa(){
   kingsiwaPopup = document.getElementById("kingsiwaPopup");
   kingsiwaPopup.classList.add("active");
 }
-
 function closeKingsiwa(){
   kingsiwaPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "kingsiwaPopup"){
     closeKingsiwa();
@@ -734,16 +1064,13 @@ document.addEventListener("click", e=>{
 });
 
 let hiyumiPopup;
-
 function openHiyumi(){
   hiyumiPopup = document.getElementById("hiyumiPopup");
   hiyumiPopup.classList.add("active");
 }
-
 function closeHiyumi(){
   hiyumiPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "hiyumiPopup"){
     closeHiyumi();
@@ -751,16 +1078,13 @@ document.addEventListener("click", e=>{
 });
 
 let apexPopup;
-
 function openApex(){
   apexPopup = document.getElementById("apexPopup");
   apexPopup.classList.add("active");
 }
-
 function closeApex(){
   apexPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "apexPopup"){
     closeApex();
@@ -768,16 +1092,13 @@ document.addEventListener("click", e=>{
 });
 
 let valhallaPopup;
-
 function openValhalla(){
   valhallaPopup = document.getElementById("valhallaPopup");
   valhallaPopup.classList.add("active");
 }
-
 function closeValhalla(){
   valhallaPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "valhallaPopup"){
     closeValhalla();
@@ -785,16 +1106,13 @@ document.addEventListener("click", e=>{
 });
 
 let vionselPopup;
-
 function openVionsel(){
   vionselPopup = document.getElementById("vionselPopup");
   vionselPopup.classList.add("active");
 }
-
 function closeVionsel(){
   vionselPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "vionselPopup"){
     closeVionsel();
@@ -802,16 +1120,13 @@ document.addEventListener("click", e=>{
 });
 
 let vetruxzPopup;
-
 function openVetruxz(){
   vetruxzPopup = document.getElementById("vetruxzPopup");
   vetruxzPopup.classList.add("active");
 }
-
 function closeVetruxz(){
   vetruxzPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "vetruxzPopup"){
     closeVetruxz();
@@ -819,16 +1134,13 @@ document.addEventListener("click", e=>{
 });
 
 let dominantsprimePopup;
-
 function openDominantsprime(){
   dominantsprimePopup = document.getElementById("dominantsprimePopup");
   dominantsprimePopup.classList.add("active");
 }
-
 function closeDominantsprime(){
   dominantsprimePopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "dominantsprimePopup"){
     closeDominantsprime();
@@ -836,16 +1148,13 @@ document.addEventListener("click", e=>{
 });
 
 let santastecuPopup;
-
 function openSantastecu(){
   santastecuPopup = document.getElementById("santastecuPopup");
   santastecuPopup.classList.add("active");
 }
-
 function closeSantastecu(){
   santastecuPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "santastecuPopup"){
     closeSantastecu();
@@ -853,19 +1162,688 @@ document.addEventListener("click", e=>{
 });
 
 let i3geraPopup;
-
 function openI3gera(){
   i3geraPopup = document.getElementById("i3geraPopup");
   i3geraPopup.classList.add("active");
 }
-
 function closeI3gera(){
   i3geraPopup.classList.remove("active");
 }
-
 document.addEventListener("click", e=>{
   if(e.target.id === "i3geraPopup"){
     closeI3gera();
+  }
+});
+
+let nivoltusPopup;
+function openNivoltus(){
+  nivoltusPopup = document.getElementById("nivoltusPopup");
+  nivoltusPopup.classList.add("active");
+}
+function closeNivoltus(){
+  nivoltusPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "nivoltusPopup"){
+    closeNivoltus();
+  }
+});
+
+let rawrPopup;
+function openRawr(){
+  rawrPopup = document.getElementById("rawrPopup");
+  rawrPopup.classList.add("active");
+}
+function closeRawr(){
+  rawrPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "rawrPopup"){
+    closeRawr();
+  }
+});
+
+let neverlouxPopup;
+function openNeverloux(){
+  neverlouxPopup = document.getElementById("neverlouxPopup");
+  neverlouxPopup.classList.add("active");
+}
+function closeNeverloux(){
+  neverlouxPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "neverlouxPopup"){
+    closeNeverloux();
+  }
+});
+
+let cosmicreapersPopup;
+function openCosmicreapers(){
+  cosmicreapersPopup = document.getElementById("cosmicreapersPopup");
+  cosmicreapersPopup.classList.add("active");
+}
+function closeCosmicreapers(){
+  cosmicreapersPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "cosmicreapersPopup"){
+    closeCosmicreapers();
+  }
+});
+
+let orbitcrewPopup;
+function openOrbitcrew(){
+  orbitcrewPopup = document.getElementById("orbitcrewPopup");
+  orbitcrewPopup.classList.add("active");
+}
+function closeOrbitcrew(){
+  orbitcrewPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "orbitcrewPopup"){
+    closeOrbitcrew();
+  }
+});
+
+let olympusPopup;
+function openOlympus(){
+  olympusPopup = document.getElementById("olympusPopup");
+  olympusPopup.classList.add("active");
+}
+function closeOlympus(){
+  olympusPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "olympusPopup"){
+    closeOlympus();
+  }
+});
+
+let dominansPopup;
+function openDominans(){
+  dominansPopup = document.getElementById("dominansPopup");
+  dominansPopup.classList.add("active");
+}
+function closeDominans(){
+  dominansPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "dominansPopup"){
+    closeDominans();
+  }
+});
+
+let oxperPopup;
+function openOxper(){
+  oxperPopup = document.getElementById("oxperPopup");
+  oxperPopup.classList.add("active");
+}
+function closeOxper(){
+  oxperPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "oxperPopup"){
+    closeOxper();
+  }
+});
+
+let genosePopup;
+function openGenose(){
+  genosePopup = document.getElementById("genosePopup");
+  genosePopup.classList.add("active");
+}
+function closeGenose(){
+  genosePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "genosePopup"){
+    closeGenose();
+  }
+});
+
+let veltanicxPopup;
+function openVeltanicx(){
+  veltanicxPopup = document.getElementById("veltanicxPopup");
+  veltanicxPopup.classList.add("active");
+}
+function closeVeltanicx(){
+  veltanicxPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "veltanicxPopup"){
+    closeVeltanicx();
+  }
+});
+
+let gooiPopup;
+function openGooi(){
+  gooiPopup = document.getElementById("gooiPopup");
+  gooiPopup.classList.add("active");
+}
+function closeGooi(){
+  gooiPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "gooiPopup"){
+    closeGooi();
+  }
+});
+
+let nine99Popup;
+function openNine99(){
+  nine99Popup = document.getElementById("nine99Popup");
+  nine99Popup.classList.add("active");
+}
+function closeNine99(){
+  nine99Popup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "nine99Popup"){
+    closeNine99();
+  }
+});
+
+let vortexzPopup;
+function openVortexz(){
+  vortexzPopup = document.getElementById("vortexzPopup");
+  vortexzPopup.classList.add("active");
+}
+function closeVortexz(){
+  vortexzPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "vortexzPopup"){
+    closeVortexz();
+  }
+});
+
+let plengerPopup;
+function openPlenger(){
+  plengerPopup = document.getElementById("plengerPopup");
+  plengerPopup.classList.add("active");
+}
+function closePlenger(){
+  plengerPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "plengerPopup"){
+    closePlenger();
+  }
+});
+
+let harunoPopup;
+function openHaruno(){
+  harunoPopup = document.getElementById("harunoPopup");
+  harunoPopup.classList.add("active");
+}
+function closeHaruno(){
+  harunoPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "harunoPopup"){
+    closeHaruno();
+  }
+});
+
+let perkenPopup;
+function openPerken(){
+  perkenPopup = document.getElementById("perkenPopup");
+  perkenPopup.classList.add("active");
+}
+function closePerken(){
+  perkenPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "perkenPopup"){
+    closePerken();
+  }
+});
+
+let neverlostPopup;
+function openNeverlost(){
+  neverlostPopup = document.getElementById("neverlostPopup");
+  neverlostPopup.classList.add("active");
+}
+function closeNeverlost(){
+  neverlostPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "neverlostPopup"){
+    closeNeverlost();
+  }
+});
+
+let yourfamsPopup;
+function openYourfams(){
+  yourfamsPopup = document.getElementById("yourfamsPopup");
+  yourfamsPopup.classList.add("active");
+}
+function closeYourfams(){
+  yourfamsPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "yourfamsPopup"){
+    closeYourfams();
+  }
+});
+
+let notbadPopup;
+function openNotbad(){
+  notbadPopup = document.getElementById("notbadPopup");
+  notbadPopup.classList.add("active");
+}
+function closeNotbad(){
+  notbadPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "notbadPopup"){
+    closeNotbad();
+  }
+});
+
+let porcePopup;
+function openPorce(){
+  porcePopup = document.getElementById("porcePopup");
+  porcePopup.classList.add("active");
+}
+function closePorce(){
+  porcePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "porcePopup"){
+    closePorce();
+  }
+});
+
+let yamazakisqPopup;
+function openYamazakisq(){
+  yamazakisqPopup = document.getElementById("yamazakisqPopup");
+  yamazakisqPopup.classList.add("active");
+}
+function closeYamazakisq(){
+  yamazakisqPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "yamazakisqPopup"){
+    closeYamazakisq();
+  }
+});
+
+let semperPopup;
+function openSemper(){
+  semperPopup = document.getElementById("semperPopup");
+  semperPopup.classList.add("active");
+}
+function closeSemper(){
+  semperPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "semperPopup"){
+    closeSemper();
+  }
+});
+
+let foxesPopup;
+function openFoxes(){
+  foxesPopup = document.getElementById("foxesPopup");
+  foxesPopup.classList.add("active");
+}
+function closeFoxes(){
+  foxesPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "foxesPopup"){
+    closeFoxes();
+  }
+});
+
+let southparkerPopup;
+function openSouthparker(){
+  southparkerPopup = document.getElementById("southparkerPopup");
+  southparkerPopup.classList.add("active");
+}
+function closeSouthparker(){
+  southparkerPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "southparkerPopup"){
+    closeSouthparker();
+  }
+});
+
+let anticelsiPopup;
+function openAnticelsi(){
+  anticelsiPopup = document.getElementById("anticelsiPopup");
+  anticelsiPopup.classList.add("active");
+}
+function closeAnticelsi(){
+  anticelsiPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "anticelsiPopup"){
+    closeAnticelsi();
+  }
+});
+
+let panelboysPopup;
+function openPanelboys(){
+  panelboysPopup = document.getElementById("panelboysPopup");
+  panelboysPopup.classList.add("active");
+}
+function closePanelboys(){
+  panelboysPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "panelboysPopup"){
+    closePanelboys();
+  }
+});
+
+let cipoxxssPopup;
+function openCipoxxss(){
+  cipoxxssPopup = document.getElementById("cipoxxssPopup");
+  cipoxxssPopup.classList.add("active");
+}
+function closeCipoxxss(){
+  cipoxxssPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "cipoxxssPopup"){
+    closeCipoxxss();
+  }
+});
+
+let vex77areaPopup;
+function openVex77area(){
+  vex77areaPopup = document.getElementById("vex77areaPopup");
+  vex77areaPopup.classList.add("active");
+}
+function closeVex77area(){
+  vex77areaPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "vex77areaPopup"){
+    closeVex77area();
+  }
+});
+
+let nocturnPopup;
+function openNocturn(){
+  nocturnPopup = document.getElementById("nocturnPopup");
+  nocturnPopup.classList.add("active");
+}
+function closeNocturn(){
+  nocturnPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "nocturnPopup"){
+    closeNocturn();
+  }
+});
+
+let panxtromPopup;
+function openPanxtrom(){
+  panxtromPopup = document.getElementById("panxtromPopup");
+  panxtromPopup.classList.add("active");
+}
+function closePanxtrom(){
+  panxtromPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "panxtromPopup"){
+    closePanxtrom();
+  }
+});
+
+let elysiumPopup;
+function openElysium(){
+  elysiumPopup = document.getElementById("elysiumPopup");
+  elysiumPopup.classList.add("active");
+}
+function closeElysium(){
+  elysiumPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "elysiumPopup"){
+    closeElysium();
+  }
+});
+
+let izumoPopup;
+function openIzumo(){
+  izumoPopup = document.getElementById("izumoPopup");
+  izumoPopup.classList.add("active");
+}
+function closeIzumo(){
+  izumoPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "izumoPopup"){
+    closeIzumo();
+  }
+});
+
+let nevervoidPopup;
+function openNevervoid(){
+  nevervoidPopup = document.getElementById("nevervoidPopup");
+  nevervoidPopup.classList.add("active");
+}
+function closeNevervoid(){
+  nevervoidPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "nevervoidPopup"){
+    closeNevervoid();
+  }
+});
+
+let khongguanPopup;
+function openKhongguan(){
+  khongguanPopup = document.getElementById("khongguanPopup");
+  khongguanPopup.classList.add("active");
+}
+function closeKhongguan(){
+  khongguanPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "khongguanPopup"){
+    closeKhongguan();
+  }
+});
+
+let catalisticPopup;
+function openCatalistic(){
+  catalisticPopup = document.getElementById("catalisticPopup");
+  catalisticPopup.classList.add("active");
+}
+function closeCatalistic(){
+  catalisticPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "catalisticPopup"){
+    closeCatalistic();
+  }
+});
+
+let panter081Popup;
+function openPanter081(){
+  panter081Popup = document.getElementById("panter081Popup");
+  panter081Popup.classList.add("active");
+}
+function closePanter081(){
+  panter081Popup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "panter081Popup"){
+    closePanter081();
+  }
+});
+
+let nvchighPopup;
+function openNvchigh(){
+  nvchighPopup = document.getElementById("nvchighPopup");
+  nvchighPopup.classList.add("active");
+}
+function closeNvchigh(){
+  nvchighPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "nvchighPopup"){
+    closeNvchigh();
+  }
+});
+
+let marga20Popup;
+function openMarga20(){
+  marga20Popup = document.getElementById("marga20Popup");
+  marga20Popup.classList.add("active");
+}
+function closeMarga20(){
+  marga20Popup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "marga20Popup"){
+    closeMarga20();
+  }
+});
+
+let marga33Popup;
+function openMarga33(){
+  marga33Popup = document.getElementById("marga33Popup");
+  marga33Popup.classList.add("active");
+}
+function closeMarga33(){
+  marga33Popup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "marga33Popup"){
+    closeMarga33();
+  }
+});
+
+let fujiPopup;
+function openFuji(){
+  fujiPopup = document.getElementById("fujiPopup");
+  fujiPopup.classList.add("active");
+}
+function closeFuji(){
+  fujiPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "fujiPopup"){
+    closeFuji();
+  }
+});
+
+let silentbladesPopup;
+function openSilentblades(){
+  silentbladesPopup = document.getElementById("silentbladesPopup");
+  silentbladesPopup.classList.add("active");
+}
+function closeSilentblades(){
+  silentbladesPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "silentbladesPopup"){
+    closeSilentblades();
+  }
+});
+
+let shadowclonePopup;
+function openShadowclone(){
+  shadowclonePopup = document.getElementById("shadowclonePopup");
+  shadowclonePopup.classList.add("active");
+}
+function closeShadowclone(){
+  shadowclonePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "shadowclonePopup"){
+    closeShadowclone();
+  }
+});
+
+let yourlosePopup;
+function openYourlose(){
+  yourlosePopup = document.getElementById("yourlosePopup");
+  yourlosePopup.classList.add("active");
+}
+function closeYourlose(){
+  yourlosePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "yourlosePopup"){
+    closeYourlose();
+  }
+});
+
+let melvadorPopup;
+function openMelvador(){
+  melvadorPopup = document.getElementById("melvadorPopup");
+  melvadorPopup.classList.add("active");
+}
+function closeMelvador(){
+  melvadorPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "melvadorPopup"){
+    closeMelvador();
+  }
+});
+
+let severpainPopup;
+function openSeverpain(){
+  severpainPopup = document.getElementById("severpainPopup");
+  severpainPopup.classList.add("active");
+}
+function closeSeverpain(){
+  severpainPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "severpainPopup"){
+    closeSeverpain();
+  }
+});
+
+let shadowscythePopup;
+function openShadowscythe(){
+  shadowscythePopup = document.getElementById("shadowscythePopup");
+  shadowscythePopup.classList.add("active");
+}
+function closeShadowscythe(){
+  shadowscythePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "shadowscythePopup"){
+    closeShadowscythe();
+  }
+});
+
+let pixelPopup;
+function openPixel(){
+  pixelPopup = document.getElementById("pixelPopup");
+  pixelPopup.classList.add("active");
+}
+function closePixel(){
+  pixelPopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "pixelPopup"){
+    closePixel();
+  }
+});
+
+let ciraprimePopup;
+function openCiraprime(){
+  ciraprimePopup = document.getElementById("ciraprimePopup");
+  ciraprimePopup.classList.add("active");
+}
+function closeCiraprime(){
+  ciraprimePopup.classList.remove("active");
+}
+document.addEventListener("click", e=>{
+  if(e.target.id === "ciraprimePopup"){
+    closeCiraprime();
   }
 });
 </script>
@@ -873,340 +1851,843 @@ document.addEventListener("click", e=>{
 <div class="babu-popup" id="babuPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeBabu()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/MATADORE/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/MATADORE/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/MATADORE/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MATADORE/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="xaverlusPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeXaverlus()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/XAVERLUS/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/XAVERLUS/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/XAVERLUS/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/XAVERLUS/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="blueskyPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeBluesky()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/BLUESKY/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/BLUESKY/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/BLUESKY/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="wkpPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeWkp()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/WKP/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/WKP/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/WKP/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="izanagiPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeIzanagi()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/IZANAGI/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/IZANAGI/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/IZANAGI/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/IZANAGI/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="margasawitPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeMargasawit()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/MARGASAWIT/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/MARGASAWIT/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/MARGASAWIT/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MARGASAWIT/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="allbasegoserPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeAllbasegoser()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/ALLBASEGOSER/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/ALLBASEGOSER/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/ALLBASEGOSER/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/ALLBASEGOSER/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="krococeesPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeKrococees()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/KROCOCEES/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/KROCOCEES/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/KROCOCEES/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="fatalxPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeFatalx()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/FATALX/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/FATALX/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/FATALX/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/FATALX/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="margasawittPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeMargasawitt()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/MARGASAWITT/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/MARGASAWITT/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MARGASAWITT/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="plengger8Popup">
   <div class="babu-box">
     <div class="babu-close" onclick="closePlengger8()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/8PLENGGER/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/8PLENGGER/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/8PLENGGER/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/8PLENGGER/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="exvanderPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeExvander()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/EXVANDER/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/EXVANDER/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/EXVANDER/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/EXVANDER/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="starluckPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeStarluck()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/STARLUCK/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/STARLUCK/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/STARLUCK/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="lengkongpridePopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeLengkongpride()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/LENGKONGPRIDE/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/LENGKONGPRIDE/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/LENGKONGPRIDE/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/LENGKONGPRIDE/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="excees05Popup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeExcees05()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/EXCEES05/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/EXCEES05/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/EXCEES05/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="sggnPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeSggn()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/SGGN/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/SGGN/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/ALLBASEGOSER/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="kingsiwaPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeKingsiwa()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/KINGSIWA/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/KINGSIWA/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/KINGSIWA/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/KINGSIWA/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="hiyumiPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeHiyumi()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/HIYUMI/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/HIYUMI/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/HIYUMI/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/HIYUMI/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="apexPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeApex()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/APEX/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/APEX/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/APEX/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="valhallaPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeValhalla()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/VALHALLA/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/VALHALLA/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VALHALLA/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="vionselPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeVionsel()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/VIONSEL/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/VIONSEL/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/VIONSEL/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VIONSEL/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="vetruxzPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeVetruxz()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/VETRUXZ/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/VETRUXZ/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M3</p><img src="BABUIMG/VETRUXZ/M3.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VETRUXZ/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="DominantsprimePopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closedominantsprime()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/DOMINANTSPRIME/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/DOMINANTSPRIME/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/DOMINANTSPRIME/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="santastecuPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeSantastecu()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/SANTASTECU/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/SANTASTECU/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SANTASTECU/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
 
 <div class="babu-popup" id="i3geraPopup">
   <div class="babu-box">
     <div class="babu-close" onclick="closeI3gera()">✕</div>
-
     <div class="babu-grid">
       <div class="babu-item"><p>M1</p><img src="BABUIMG/I3GERA/M1.jpg" loading="lazy"></div>
       <div class="babu-item"><p>M2</p><img src="BABUIMG/I3GERA/M2.jpg" loading="lazy"></div>
       <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/I3GERA/NAMACC.jpg" loading="lazy"></div>
     </div>
-
   </div>
 </div>
+
+<div class="babu-popup" id="nivoltusPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNivoltus()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NIVOLTUS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NIVOLTUS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NIVOLTUS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="rawrPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeRawr()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/RAWR/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/RAWR/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/RAWR/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/RAWR/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="neverlouxPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNeverloux()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NEVERLOUX/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NEVERLOUX/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NEVERLOUX/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="cosmicreapersPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeCosmicreapers()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/COSMICREAPERS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/COSMICREAPERS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/COSMICREAPERS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="orbitcrewPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeOrbitcrew()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/ORBITCREW/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/ORBITCREW/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/ORBITCREW/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/ORBITCREW/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="olympusPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeOlympus()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/OLYMPUS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/OLYMPUS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/OLYMPUS/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/OLYMPUS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="dominansPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeDominans()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/DOMINANS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/DOMINANS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/DOMINANS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="oxperPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeOxper()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/OXPER/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/OXPER/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/OXPER/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="genosePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeGenose()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/GENOSE/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/GENOSE/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/GENOSE/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="veltanicxPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeVeltanicx()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/VELTANICX/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/VELTANICX/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/VELTANICX/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VELTANICX/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="gooiPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeGooi()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/GOOI/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/GOOI/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/GOOI/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="nine99Popup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNine99()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NINE99/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NINE99/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NINE99/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="vortexzPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeVortexz()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/VORTEXZ/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/VORTEXZ/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VORTEXZ/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="plengerPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePlenger()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PLENGER/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PLENGER/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PLENGER/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="harunoPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeHaruno()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/HARUNO/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/HARUNO/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/HARUNO/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="perkenPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePerken()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PERKEN/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PERKEN/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PERKEN/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="neverlostPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNeverlost()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NEVERLOST/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NEVERLOST/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/NEVERLOST/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NEVERLOST/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="yourfamsPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeYourfams()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/YOURFAMS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/YOURFAMS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/YOURFAMS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="notbadPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNotbad()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NOTBAD/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NOTBAD/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/NOTBAD/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NOTBAD/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="porcePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePorce()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PORCE/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PORCE/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PORCE/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="yamazakisqPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeYamazakisq()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/YAMAZAKISQ/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/YAMAZAKISQ/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/YAMAZAKISQ/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="semperPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeSemper()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SEMPER/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SEMPER/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/SEMPER/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SEMPER/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="foxesPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeFoxes()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/FOXES/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/FOXES/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/FOXES/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/FOXES/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="southparkerPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeSouthparker()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SOUTHPARKER/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SOUTHPARKER/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SOUTHPARKER/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="anticelsiPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeAnticelsi()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/ANTICELSI/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/ANTICELSI/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/ANTICELSI/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="panelboysPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePanelboys()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PANELBOYS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PANELBOYS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PANELBOYS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="cipoxxssPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeCipoxxss()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/CIPOXXSS/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/CIPOXXSS/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/CIPOXXSS/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="vex77areaPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeVex77area()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/VEX77AREA/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/VEX77AREA/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/VEX77AREA/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="nocturnPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNocturn()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NOCTURN/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NOCTURN/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NOCTURN/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="panxtromPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePanxtrom()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PANXTROM/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PANXTROM/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PANXTROM/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="elysiumPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeElysium()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/ELYSIUM/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/ELYSIUM/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/ELYSIUM/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/ELYSIUM/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="izumoPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeIzumo()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/IZUMO/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/IZUMO/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/IZUMO/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="nevervoidPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNevervoid()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NEVERVOID/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NEVERVOID/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NEVERVOID/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="khongguanPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeKhongguan()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/KHONGGUAN/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/KHONGGUAN/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/KHONGGUAN/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="catalisticPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeCatalistic()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/CATALISTIC/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/CATALISTIC/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/CATALISTIC/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="panter081Popup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePanter081()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PANTER081/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PANTER081/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PANTER081/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="nvchighPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeNvchigh()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/NVCHIGH/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/NVCHIGH/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/NVCHIGH/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="marga20Popup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeMarga20()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/MARGA20/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/MARGA20/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MARGA20/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="marga33Popup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeMarga33()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/MARGA33/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/MARGA33/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/MARGA33/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MARGA33/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="fujiPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeFuji()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/FUJI/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/FUJI/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/FUJI/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/FUJI/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="silentbladesPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeSilentblades()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SILENTBLADES/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SILENTBLADES/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SILENTBLADES/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="shadowclonePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeShadowclone()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SHADOWCLONE/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SHADOWCLONE/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SHADOWCLONE/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="yourlosePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeYourlose()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/YOURLOSE/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/YOURLOSE/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/YOURLOSE/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/YOURLOSE/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="melvadorPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeMelvador()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/MELVADOR/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/MELVADOR/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/MELVADOR/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/MELVADOR/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="severpainPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeSeverpain()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SEVERPAIN/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SEVERPAIN/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SEVERPAIN/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="shadowscythePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeShadowscythe()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/SHADOWSCYTHE/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/SHADOWSCYTHE/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/SHADOWSCYTHE/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="pixelPopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closePixel()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/PIXEL/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/PIXEL/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/PIXEL/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+<div class="babu-popup" id="ciraprimePopup">
+  <div class="babu-box">
+    <div class="babu-close" onclick="closeCiraprime()">✕</div>
+    <div class="babu-grid">
+      <div class="babu-item"><p>M1</p><img src="BABUIMG/CIRAPRIME/M1.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M2</p><img src="BABUIMG/CIRAPRIME/M2.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>M3</p><img src="BABUIMG/CIRAPRIME/M3.jpg" loading="lazy"></div>
+      <div class="babu-item"><p>NAMA CC</p><img src="BABUIMG/CIRAPRIME/NAMACC.jpg" loading="lazy"></div>
+    </div>
+  </div>
+</div>
+
+</div> <!-- tutup left -->
+
+<div class="right">
+  <div class="feature">🛡️ Anti Delete</div>
+  <div class="feature">🎮 Mini Game</div>
+  <div class="feature">⚡ Fast System</div>
+  <div class="feature">🔥 75+ Babu</div>
+</div>
+
+</div> <!-- tutup wrapper -->
 
 </body>
 </html>
